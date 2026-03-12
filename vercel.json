@@ -19,8 +19,11 @@
     {
       "src": "/build/(.*)",
       "dest": "public/build/"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
     }
-
   ],
   "env": {
     "CACHE_STORE": "array",
